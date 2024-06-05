@@ -1,0 +1,36 @@
+Mumbai rainfall pattern:
+main:
+https://github.com/rajiv8/Rainfall-Prediction/blob/master/Rainfall_Prediction.ipynb
+
+
+https://github.com/vgaurav3011/Rainfall-Prediction/blob/master/Exploration_Rainfall_Data.ipynb
+https://github.com/Vatshayan/B.tech-Project-Rainfall-Predication-in-India
+->Data Exploratory Analysis
+  1) simple historical graphs to see which period has most rainfall
+  2) yearwise variation from the period which had most rainfall
+  3) check the years that has lowest rainfall and the months as well
+  4) year which has peak annual rainfall
+  5) monthly variations in rainfall
+  6) Seasonal Variations of Rainfall which clearly indicates June to September as prime onset of Monsoons
+http://127.0.0.1:5000/
+data[["Year","Total"]].groupby("Year").sum().sort_values(by='Total',ascending=False).plot(kind='barh',stacked=True,figsize=(15,10))
+plt.xlabel("Rainfall in MM",size=12)
+plt.ylabel("Year",size=12)
+plt.title("Annual Rainfall v/s Year")
+plt.grid(axis="x",linestyle="-.")
+plt.show()
+
+
+Linear regression and Randomforrest for prediction 
+https://github.com/DeepthiSudharsan/Rainfall-Pattern-Prediction-using-ML
+and https://github.com/rajiv8/Rainfall-Prediction/blob/master/Rainfall_Prediction.ipynb
+
+https://www.youtube.com/watch?v=s8FTlvBkUWI&t=724s - today
+https://www.youtube.com/watch?v=GvBTsNlYvjI&t=120s - today
+https://www.youtube.com/watch?v=tUhuBHkdr9Y&t=170s - today
+https://www.youtube.com/watch?v=zi9_kWUXObw&list=PLJtSFa-YIedYu2QfQaHJJBLT096RxtMHD&index=7 - tomorrow
+https://www.youtube.com/watch?v=jAfHiLsW1gI&list=PLJtSFa-YIedYu2QfQaHJJBLT096RxtMHD&index=8 - tomorrow
+https://www.youtube.com/watch?v=uOCyZUX51Us&list=PLJtSFa-YIedYu2QfQaHJJBLT096RxtMHD&index=9 - tomorrow
+
+https://www.youtube.com/watch?v=BGlEv2CTfeg - tomorrow
+Krishnamoorthy, Ganesh Kumar asked me to check on the data vizualisation solution that was build by clinical which part of RANS
